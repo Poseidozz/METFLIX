@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta - Vídeos Financeiros de Sucesso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre Mim</a>
+            <a href="criar-conta.html">Criar Conta</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="create-account">
+            <h2>Criar Conta</h2>
+            <form action="/criar-conta" method="post" class="account-form">
+                <div class="form-group">
+                    <label for="username">Nome de Usuário:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="profile-pic">Imagem de Perfil:</label>
+                    <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+                </div>
+                <button type="submit">Criar Conta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vídeos Financeiros de Sucesso. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
