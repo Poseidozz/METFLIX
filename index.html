@@ -3,54 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>METFLIX - Portal de Vídeos</title>
+    <title>Vídeos Financeiros de Sucesso</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>METFLIX</h1>
+        <div class="banner">
+            <video id="bannerVideo" autoplay loop muted>
+                <source src="https://cdn.discordapp.com/attachments/904926175154020403/1274755655739117638/Apresentao_de_Logo_Poder_da_Escurido_free_online-video-cutter.com.mp4?ex=66c36838&is=66c216b8&hm=153c7d20d225765c435dc0bb76609cbed0429a09ce6b73331096291c147dc93e&" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-            </ul>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre Mim</a>
+            <a href="criar-conta.html">Criar Conta</a>
         </nav>
     </header>
+
     <main>
-        <section class="video-gallery">
+        <section class="featured-videos">
+            <h2>Vídeos Destaques</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gON4Wn0vR4I?si=16GW6Gd3CodNPpe1" title="Como sair das dívidas? | Thiago Finch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3>Como sair das dívidas? | Thiago Finch</h3>
+                </div>
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SfhvwmGxyPo?si=E6sosEtCu6IfWEdi" title="3 INVESTIMENTOS PARA INICIANTES EM DÓLAR | Invista com MENOS de R$ 250" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3>3 INVESTIMENTOS PARA INICIANTES EM DÓLAR | Invista com MENOS de R$ 250</h3>
+                </div>
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2-PzmPLJ0U4?si=QAU6fHHLqOBnieoH" title="VEJA COMO GANHAR 300 REAIS DE RENDA EXTRA POR SEMANA NA HOTMART" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3>VEJA COMO GANHAR 300 REAIS DE RENDA EXTRA POR SEMANA NA HOTMART</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-videos">
             <h2>Vídeos Recentes</h2>
-            <div class="video-item">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/gON4Wn0vR4I?si=16GW6Gd3CodNPpe1" title="Como sair das dívidas? | Thiago Finch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ice_xL6x4Qg?si=o7ycAMsSP1zlYZY1" title="Como começar no Marketing Digital - Guia para Iniciantes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3>Como começar no Marketing Digital - Guia para Iniciantes</h3>
                 </div>
-                <h3>Como sair das dívidas? | Thiago Finch</h3>
-                <p>#thiagofinch</p>
-            </div>
-            <div class="video-item">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/SfhvwmGxyPo?si=E6sosEtCu6IfWEdi" title="3 INVESTIMENTOS PARA INICIANTES EM DÓLAR | Invista com MENOS de R$ 250" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ep65y-eQxgE?si=8RdMA1yMalCcBkOn" title="Encontrar o EQUILÍBRIO FINANCEIRO | A Mentalidade das Finanças Pessoais" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3>Encontrar o EQUILÍBRIO FINANCEIRO | A Mentalidade das Finanças Pessoais</h3>
                 </div>
-                <h3>3 INVESTIMENTOS PARA INICIANTES EM DÓLAR</h3>
-                <p>#primorico</p>
-            </div>
-            <div class="video-item">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/2-PzmPLJ0U4?si=QAU6fHHLqOBnieoH" title="VEJA COMO GANHAR 300 REAIS DE RENDA EXTRA POR SEMANA NA HOTMART" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/in0XbfQEm2A?si=B-gPFTAJpLszLaB5" title="COMO ORGANIZAR SUAS FINANÇAS E GUARDAR DINHEIRO | Planejamento financeiro FÁCIL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3>COMO ORGANIZAR SUAS FINANÇAS E GUARDAR DINHEIRO | Planejamento financeiro FÁCIL</h3>
                 </div>
-                <h3>VEJA COMO GANHAR 300 REAIS DE RENDA EXTRA POR SEMANA NA HOTMART</h3>
-                <p>#nerddenegocios</p>
-            </div>
-            <div class="video-item">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/ice_xL6x4Qg?si=o7ycAMsSP1zlYZY1" title="Como começar no Marketing Digital - Guia para Iniciantes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hRa6r63HXt0?si=dCoe4goWaG3IZvMT" title="O MELHOR INVESTIMENTO DOS ÚLTIMOS 100 ANOS!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3>O MELHOR INVESTIMENTO DOS ÚLTIMOS 100 ANOS!</h3>
                 </div>
-                <h3>Como começar no Marketing Digital - Guia para Iniciantes</h3>
-                <p>#danielpedin</p>
             </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 METFLIX - Feito por Victor Anderson para Alura e Escola Quirino</p>
+        <p>&copy; 2024 Vídeos Financeiros de Sucesso. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
